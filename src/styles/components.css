@@ -1,0 +1,76 @@
+/* Input styles */
+
+.input-element {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    background-color: #f3f4f6;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 10px;
+    height: 10px;
+}
+
+label {
+    font-size: 12px;
+}
+
+/* General Section Styles */
+section.container {
+    padding: 18px;
+    border-radius: 12px;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: solid 1px black;
+}
+
+h2.container-title {
+    font-size: 20px;
+}
+
+.collapsable-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* Resume Styles */
+section.resume {
+    position: relative;
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+
+header.resume-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    background-color: #0e374e;
+    padding: 35px;
+    color: white;
+}
+
+.resume-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.resume-title {
+    font-size: 30px;
+}
+
+.resume-contact > * {
+    font-size: 18px;
+}
