@@ -1,0 +1,1 @@
+export const schools = [{school: "University of Florida", degree: "B.S. in Computer Science", start: "June 2024", end: "June 2026", location: "Gainesville, FL", id: 0}]

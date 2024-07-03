@@ -18,6 +18,12 @@ label {
     font-size: 12px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 /* General Section Styles */
 section.container {
     padding: 18px;
@@ -39,6 +45,44 @@ h2.container-title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.education-content {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button.add-education {
+    align-self: center;
+}
+
+.form-buttons {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.schools {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.schools > li {
+    list-style: none;
+    background-color: #f3f4f6;
+    border-radius: 12px;
+    padding: 10px;
+    transition: background-color 500ms;
+    cursor: pointer;
+}
+
+.schools > li:hover {
+    background-color: #0e374e;
+    color: white;
 }
 
 
@@ -73,4 +117,38 @@ header.resume-top {
 
 .resume-contact > * {
     font-size: 18px;
+}
+
+.resume-education {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resume-section-header {
+    text-align: center;
+    background-color: #f3f4f6;
+    color: #0e374e;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.resume-education-content {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.school {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.degree {
+    font-size: 13px
+}
+
+.date, .location {
+    font-size: 16px;
 }

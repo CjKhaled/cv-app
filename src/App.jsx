@@ -52,12 +52,28 @@ function App() {
     setLocation(e.target.value)
   }
 
+  function clearEducationText() {
+    setSchool('')
+    setDegree('')
+    setStart('')
+    setEnd('')
+    setLocation('');
+  }
+
+  function changeExistingEducationInfo(existingSchool, existingDegree, existingStart, existingEnd, existingLocation) {
+    setSchool(existingSchool)
+    setDegree(existingDegree)
+    setStart(existingStart)
+    setEnd(existingEnd)
+    setLocation(existingLocation)
+  }
+
   return (
     <main>
       <div className="app-container">
         <div className="edit-side">
           <GeneralInfo fullName={fullName} email={email} phone={phone} address={address} handleNameChange={handleNameChange} handleEmailChange={handleEmailChange} handlePhoneChange={handlePhoneChange} handleAddressChange={handleAddressChange}/>
-          <Education school={school} degree={degree} start={start} end={end} location={location} handleSchoolChange={handleSchoolChange} handleDegreeChange={handleDegreeChange} handleStartChange={handleStartChange} handleEndChange={handleEndChange} handleLocationChange={handleLocationChange} />
+          <Education school={school} degree={degree} start={start} end={end} location={location} handleSchoolChange={handleSchoolChange} handleDegreeChange={handleDegreeChange} handleStartChange={handleStartChange} handleEndChange={handleEndChange} handleLocationChange={handleLocationChange} clearText={clearEducationText} changeExistingEducationInfo={changeExistingEducationInfo} />
         </div>
         <div className="resume-side">
           <Resume fullName={fullName} email={email} phone={phone} address={address} />
