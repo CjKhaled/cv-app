@@ -7,7 +7,7 @@
 main {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #f3f4f6;
     display: flex;
     justify-content: center;

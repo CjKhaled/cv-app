@@ -11,7 +11,6 @@ input {
     border: 2px solid transparent;
     border-radius: 12px;
     padding: 10px;
-    height: 10px;
 }
 
 label {
@@ -47,14 +46,14 @@ h2.container-title {
     justify-content: space-between;
 }
 
-.education-content {
+.education-content, .experience-content {
     margin-top: 15px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-button.add-education {
+button.add-education, button.add-job {
     align-self: center;
 }
 
@@ -65,13 +64,13 @@ button.add-education {
     gap: 20px;
 }
 
-.schools {
+.schools, .jobs {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.schools > li {
+.schools, .jobs > li {
     list-style: none;
     background-color: #f3f4f6;
     border-radius: 12px;
@@ -90,7 +89,7 @@ button.add-education {
 section.resume {
     position: relative;
     max-width: 600px;
-    height: auto;
+    height: 820px;
     width: 100%;
     background-color: white;
 }
@@ -116,10 +115,10 @@ header.resume-top {
 }
 
 .resume-contact > * {
-    font-size: 18px;
+    font-size: 15px;
 }
 
-.resume-education {
+.resume-education, .resume-experience {
     padding: 35px;
     display: flex;
     flex-direction: column;
@@ -134,21 +133,26 @@ header.resume-top {
     font-size: 18px;
 }
 
-.resume-education-content {
-    display: flex;
-    flex-direction: row;
-    gap: 18px;
+.resume-education-content, .resume-experience-content {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: start;
 }
 
-.school {
+.school, .company {
     font-weight: bold;
     font-size: 18px;
 }
 
-.degree {
+.degree, .position {
     font-size: 13px
 }
 
+.desc {
+    font-size: 14px;
+}
+
 .date, .location {
-    font-size: 16px;
+    font-size: 11px;
+    margin-top: 4px;
 }
