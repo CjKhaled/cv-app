@@ -1,8 +1,3 @@
-# React + Vite
+# CV App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a basic CV app that demonstrates knowledge of react props and state management. There is no input validation or print functionality (things I'd like to add in the future), all it provides is inputting information into dynamic forms and allows the user the see that information in real-time.
