@@ -1,41 +1,39 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
 }
 
 main {
-    position: relative;
-    width: 100vw;
-    min-height: 100vh;
-    background-color: #f3f4f6;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
 }
 
 .app-container {
-    position: relative;
-    min-width: 1400px;
-    height: auto;
-    background-color: white;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    gap: 24px;
+  position: relative;
+  min-width: 1400px;
+  height: auto;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 24px;
 }
 
 .edit-side {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
-    padding: 40px 0px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 40px 0px;
 }
 
 .resume-side {
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    padding: 80px 0px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  padding: 80px 0px;
 }
-

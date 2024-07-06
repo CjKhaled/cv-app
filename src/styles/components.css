@@ -1,158 +1,166 @@
 /* Input styles */
 
 .input-element {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 input {
-    background-color: #f3f4f6;
-    border: 2px solid transparent;
-    border-radius: 12px;
-    padding: 10px;
+  background-color: #f3f4f6;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  padding: 10px;
 }
 
 label {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 /* General Section Styles */
 section.container {
-    padding: 18px;
-    border-radius: 12px;
-    max-width: 400px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border: solid 1px black;
+  padding: 18px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: solid 1px black;
 }
 
 h2.container-title {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .collapsable-element {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.education-content, .experience-content {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.education-content,
+.experience-content {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-button.add-education, button.add-job {
-    align-self: center;
+button.add-education,
+button.add-job {
+  align-self: center;
 }
 
 .form-buttons {
-    align-self: center;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
-.schools, .jobs {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+.schools,
+.jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.schools, .jobs > li {
-    list-style: none;
-    background-color: #f3f4f6;
-    border-radius: 12px;
-    padding: 10px;
-    transition: background-color 500ms;
-    cursor: pointer;
+.schools,
+.jobs > li {
+  list-style: none;
+  background-color: #f3f4f6;
+  border-radius: 12px;
+  padding: 10px;
+  transition: background-color 500ms;
+  cursor: pointer;
 }
 
 .schools > li:hover {
-    background-color: #0e374e;
-    color: white;
+  background-color: #0e374e;
+  color: white;
 }
-
 
 /* Resume Styles */
 section.resume {
-    position: relative;
-    max-width: 600px;
-    height: 820px;
-    width: 100%;
-    background-color: white;
+  position: relative;
+  max-width: 600px;
+  height: 820px;
+  width: 100%;
+  background-color: white;
 }
 
 header.resume-top {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    text-align: center;
-    background-color: #0e374e;
-    padding: 35px;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  background-color: #0e374e;
+  padding: 35px;
+  color: white;
 }
 
 .resume-contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .resume-title {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .resume-contact > * {
-    font-size: 15px;
+  font-size: 15px;
 }
 
-.resume-education, .resume-experience {
-    padding: 35px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.resume-education,
+.resume-experience {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .resume-section-header {
-    text-align: center;
-    background-color: #f3f4f6;
-    color: #0e374e;
-    padding: 5px;
-    font-size: 18px;
+  text-align: center;
+  background-color: #f3f4f6;
+  color: #0e374e;
+  padding: 5px;
+  font-size: 18px;
 }
 
-.resume-education-content, .resume-experience-content {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    align-items: start;
+.resume-education-content,
+.resume-experience-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: start;
 }
 
-.school, .company {
-    font-weight: bold;
-    font-size: 18px;
+.school,
+.company {
+  font-weight: bold;
+  font-size: 18px;
 }
 
-.degree, .position {
-    font-size: 13px
+.degree,
+.position {
+  font-size: 13px;
 }
 
 .desc {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-.date, .location {
-    font-size: 11px;
-    margin-top: 4px;
+.date,
+.location {
+  font-size: 11px;
+  margin-top: 4px;
 }
